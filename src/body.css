@@ -1,0 +1,120 @@
+
+html{
+  font-size: 10px;
+}
+
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.body{
+    border: .1rem solid black;
+    margin: 1rem 0;
+    width:98vw;
+}
+
+.search{
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  padding: 1rem;
+}
+
+.text-search{
+    text-align: center;
+    color:rgb(108, 108, 108);
+    width:10rem;
+}
+.text-search::placeholder{
+   text-align: center;
+   font-size:1.6rem;
+   color:rgb(108, 108, 108);
+}
+
+.btn-search{
+  padding:1rem;
+  background-color: rgb(244,67,54);
+  color:white;
+  margin-left:0.4rem;
+  font-size: 1.6rem;
+}
+
+
+.res-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding:10px;
+
+}
+.cards{
+    width:15vw;
+    color: black;
+    margin:0.5rem;
+    transition: .3s ease;
+}
+
+.cards:hover{
+  transform: scale();
+}
+.photo{
+    width: 100%;
+    height: 25vh;
+    border-radius: 10px;
+}
+
+.overflow{
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+
+.afterlink{
+  text-decoration: none;
+  color: rgb(244,67,54);
+}
+
+
+@media (max-width:1440px){
+  html{
+    font-size: 20px;
+  }
+}
+
+@media (max-width:1024px){
+  html{
+    font-size: 17px;
+  }
+}
+
+@media (max-width:768px){
+  html{
+    font-size: 10px;
+  }
+}
+
+@media (max-width:425px){
+  html{
+    font-size: 5px;
+  }
+}
+
+@media (max-width:375px){
+  html{
+    font-size: 5px;
+  }
+}
+
+@media (max-width:320px){
+  html{
+    font-size: 5px;
+  }
+}
+@media (max-width:220px){
+  html{
+    font-size: 3px;
+  }
+}
